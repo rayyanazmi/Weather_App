@@ -2,7 +2,7 @@
 
 A Flutter-powered Weather App that provides real-time weather updates for your precise location. This app uses the OpenWeatherMap API to fetch live weather data and displays it in a simple, visually appealing UI.
 
-![App Screenshot](![Screenshot_20241105_221339](https://github.com/user-attachments/assets/fa2787ee-96ec-4a38-a1f4-b945d8b16082))
+![App Screenshot]![Screenshot_20241105_221339](https://github.com/user-attachments/assets/fa2787ee-96ec-4a38-a1f4-b945d8b16082)
 
 ## Features
 - **Real-Time Weather Data**: Shows current temperature, weather conditions, and clear indicators for sunrise and sunset times.
@@ -20,12 +20,9 @@ The app uses the following dependencies:
 ## Getting Started
 To run this app locally, follow these steps:
 
-
-
 ### Prerequisites
 - Flutter SDK installed on your machine.
 - An OpenWeatherMap API key. [Sign up here](https://home.openweathermap.org/users/sign_up) to get a free API key.
-
 ### Installation
 1. Clone the repository:
    ```bash
@@ -36,18 +33,18 @@ To run this app locally, follow these steps:
    cd weather-app-flutter
    
 4. Install dependencies:
-  ```bash
-  flutter pub get
+   ```bash
+     flutter pub get
 
-Setup
+### Setup
 
 1. Add your OpenWeatherMap API key in the app:
 - Open lib/constants.dart or the appropriate file where API keys are managed.
 - Replace "YOUR_API_KEY" with your actual OpenWeatherMap API key.
 
-Running the App
+### Running the App
 Run the following command to launch the app on a connected device or emulator:
 
-Note
+### Note
 This app requires location permission to function. Make sure to grant location permissions when prompted.
 
